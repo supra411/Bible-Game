@@ -34,7 +34,7 @@
             "Key": "01330efa-2bae-4cce-80d3-43c663c47263",
             "Value": {
                 "id": "af9330eb-63e2-47c2-8933-ed8f5e799e3d",
-                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourcePath": "sprites\\spr_David\\spr_David.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -63,10 +63,18 @@
             }
         },
         {
+            "Key": "3d4f1c2c-00f9-4738-a0b1-3eed15353f26",
+            "Value": {
+                "id": "e0669b38-0b1d-4886-9b10-6892b5b5fd4c",
+                "resourcePath": "sprites\\spr_rock\\spr_rock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "640fd130-8ea3-469b-9757-159096de2ef9",
             "Value": {
                 "id": "0494e21a-6ed1-46d5-8746-54a9c972367b",
-                "resourcePath": "sprites\/sprite0\/sprite0.yy",
+                "resourcePath": "sprites\\spr_Goliath\\spr_Goliath.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -95,6 +103,14 @@
             }
         },
         {
+            "Key": "9af0bfa7-a77b-4a46-add5-8d019c3c9829",
+            "Value": {
+                "id": "867f7a49-f10c-4750-8b8b-49657868494b",
+                "resourcePath": "objects\\obj_David\\obj_David.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a14dd42e-26e2-41e1-976c-74bd54941c3e",
             "Value": {
                 "id": "3a21455b-2845-4139-adc3-b57527ea5a07",
@@ -114,7 +130,7 @@
             "Key": "a9cfc02d-69dd-4a86-8956-ce8e8f77d4aa",
             "Value": {
                 "id": "371ec48f-763d-4595-bb37-d97fb0a58807",
-                "resourcePath": "objects\/object0\/object0.yy",
+                "resourcePath": "objects\\obj_Goliath\\obj_Goliath.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -212,6 +228,14 @@
                 "id": "e67e2beb-cf86-4210-97b1-41c3f471da56",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f79733b5-d8b2-4043-bc72-779e71eaccf0",
+            "Value": {
+                "id": "ce7971c0-10a2-4578-b402-8cd008e73fc6",
+                "resourcePath": "objects\\obj_Stone\\obj_Stone.yy",
+                "resourceType": "GMObject"
             }
         }
     ],

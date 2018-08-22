@@ -1,18 +1,18 @@
 {
-    "id": "a9cfc02d-69dd-4a86-8956-ce8e8f77d4aa",
+    "id": "f79733b5-d8b2-4043-bc72-779e71eaccf0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "object0",
+    "name": "obj_Stone",
     "eventList": [
         {
-            "id": "2f2105e2-58a2-466a-93bb-e995fc829fcf",
+            "id": "30749758-7ca6-4c20-b82d-cc8c855241fc",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": true,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "a9cfc02d-69dd-4a86-8956-ce8e8f77d4aa"
+            "eventtype": 0,
+            "m_owner": "f79733b5-d8b2-4043-bc72-779e71eaccf0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "640fd130-8ea3-469b-9757-159096de2ef9",
+    "spriteId": "3d4f1c2c-00f9-4738-a0b1-3eed15353f26",
     "visible": true
 }

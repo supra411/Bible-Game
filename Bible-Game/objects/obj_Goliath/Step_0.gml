@@ -7,35 +7,50 @@ var l5E5D40E5_0 = false;
 l5E5D40E5_0 = instance_exists(obj_David);
 if(l5E5D40E5_0)
 {
-	/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 44588117
+	/// @DnDHash : 654B6172
 	/// @DnDParent : 5E5D40E5
-	/// @DnDArgument : "x" "obj_David.x"
-	/// @DnDArgument : "y" "obj_David.y"
-	direction = point_direction(x, y, obj_David.x, obj_David.y);
-
-	/// @DnDAction : YoYo Games.Movement.Set_Speed
-	/// @DnDVersion : 1
-	/// @DnDHash : 7B05A8B8
-	/// @DnDParent : 5E5D40E5
-	/// @DnDArgument : "speed" "spd"
-	speed = spd;
+	/// @DnDArgument : "var" "hp"
+	/// @DnDArgument : "op" "2"
+	if(hp > 0)
+	{
+		/// @DnDAction : YoYo Games.Movement.Set_Direction_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 44588117
+		/// @DnDParent : 654B6172
+		/// @DnDArgument : "x" "obj_David.x"
+		/// @DnDArgument : "y" "obj_David.y"
+		direction = point_direction(x, y, obj_David.x, obj_David.y);
+	
+		/// @DnDAction : YoYo Games.Movement.Set_Speed
+		/// @DnDVersion : 1
+		/// @DnDHash : 7B05A8B8
+		/// @DnDParent : 654B6172
+		/// @DnDArgument : "speed" "spd"
+		speed = spd;
+	}
 }
 
-/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Released
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 291D721F
-var l291D721F_0;
-l291D721F_0 = keyboard_check_released(vk_space);
-if (l291D721F_0)
+/// @DnDHash : 11C9F93B
+/// @DnDArgument : "var" "hp"
+/// @DnDArgument : "op" "3"
+if(hp <= 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 222AEDCC
-	/// @DnDParent : 291D721F
-	/// @DnDArgument : "spriteind" "sprite1"
-	/// @DnDSaveInfo : "spriteind" "bca44fa1-90dd-451a-b608-c90feab97565"
-	sprite_index = sprite1;
+	/// @DnDHash : 36EED81B
+	/// @DnDParent : 11C9F93B
+	/// @DnDArgument : "spriteind" "spr_goliath_dead"
+	/// @DnDSaveInfo : "spriteind" "9aae7ba8-7723-4526-a20a-a5471e0eea6a"
+	sprite_index = spr_goliath_dead;
 	image_index = 0;
+
+	/// @DnDAction : YoYo Games.Movement.Set_Speed
+	/// @DnDVersion : 1
+	/// @DnDHash : 64CF09EE
+	/// @DnDParent : 11C9F93B
+	speed = 0;
 }

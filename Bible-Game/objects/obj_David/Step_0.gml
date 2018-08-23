@@ -26,24 +26,42 @@ if (l6C633556_0)
 	/// @DnDArgument : "op" "3"
 	if(cooldown <= 0)
 	{
-		/// @DnDAction : YoYo Games.Instances.Create_Instance
+		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 3EC695F3
+		/// @DnDHash : 68273AA4
 		/// @DnDParent : 2D06A08C
-		/// @DnDArgument : "xpos" "x"
-		/// @DnDArgument : "ypos" "y"
-		/// @DnDArgument : "objectid" "obj_Stone"
-		/// @DnDArgument : "layer" ""Layer_Stone""
-		/// @DnDSaveInfo : "objectid" "f79733b5-d8b2-4043-bc72-779e71eaccf0"
-		instance_create_layer(x, y, "Layer_Stone", obj_Stone);
-	
-		/// @DnDAction : YoYo Games.Common.Variable
-		/// @DnDVersion : 1
-		/// @DnDHash : 2E0D4AC0
-		/// @DnDParent : 2D06A08C
-		/// @DnDArgument : "expr" "25"
-		/// @DnDArgument : "var" "cooldown"
-		cooldown = 25;
+		/// @DnDArgument : "var" "stonenum"
+		/// @DnDArgument : "op" "2"
+		if(stonenum > 0)
+		{
+			/// @DnDAction : YoYo Games.Instances.Create_Instance
+			/// @DnDVersion : 1
+			/// @DnDHash : 3EC695F3
+			/// @DnDParent : 68273AA4
+			/// @DnDArgument : "xpos" "x"
+			/// @DnDArgument : "ypos" "y"
+			/// @DnDArgument : "objectid" "obj_Stone"
+			/// @DnDArgument : "layer" ""Layer_Stone""
+			/// @DnDSaveInfo : "objectid" "f79733b5-d8b2-4043-bc72-779e71eaccf0"
+			instance_create_layer(x, y, "Layer_Stone", obj_Stone);
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 2E0D4AC0
+			/// @DnDParent : 68273AA4
+			/// @DnDArgument : "expr" "25"
+			/// @DnDArgument : "var" "cooldown"
+			cooldown = 25;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 4F6E6ABE
+			/// @DnDParent : 68273AA4
+			/// @DnDArgument : "expr" "-1"
+			/// @DnDArgument : "expr_relative" "1"
+			/// @DnDArgument : "var" "stonenum"
+			stonenum += -1;
+		}
 	}
 }
 

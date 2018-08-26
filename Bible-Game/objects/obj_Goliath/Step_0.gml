@@ -39,15 +39,6 @@ if(l5E5D40E5_0)
 /// @DnDArgument : "op" "3"
 if(hp <= 0)
 {
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 0B6D9FDD
-	/// @DnDParent : 11C9F93B
-	/// @DnDArgument : "expr" "-1"
-	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "var" "stonenumcount"
-	stonenumcount += -1;
-
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 36EED81B

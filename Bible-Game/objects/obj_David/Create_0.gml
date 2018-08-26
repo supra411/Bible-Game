@@ -10,3 +10,10 @@ cooldown = 0;
 /// @DnDArgument : "expr" "5"
 /// @DnDArgument : "var" "stonenum"
 stonenum = 5;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 33874A24
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "davidmove"
+davidmove = 1;

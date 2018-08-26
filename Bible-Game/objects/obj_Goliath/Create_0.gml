@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 593D12DB
-/// @DnDArgument : "expr" "3"
+/// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "hp"
-hp = 3;
+hp = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

@@ -2,7 +2,7 @@
     "id": "3c333055-a78e-4dad-9f8c-12237f094a5e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_keeper",
+    "name": "obj_Keeper",
     "eventList": [
         
     ],

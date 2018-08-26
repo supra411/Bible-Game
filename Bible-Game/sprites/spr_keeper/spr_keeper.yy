@@ -2,7 +2,7 @@
     "id": "baba67a0-58d2-4de3-a8c1-ae91d2ef5e2c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_keeper",
+    "name": "spr_Keeper",
     "For3D": false,
     "HTile": false,
     "VTile": false,

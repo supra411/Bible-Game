@@ -2,7 +2,7 @@
     "id": "e49074ff-f672-46d2-943e-affae42dc101",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_eliab",
+    "name": "spr_Eliab",
     "For3D": false,
     "HTile": false,
     "VTile": false,

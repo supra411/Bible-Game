@@ -2,7 +2,7 @@
     "id": "6b5e4652-5fd6-4a9c-8d1d-62e5975708ae",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_stream",
+    "name": "spr_Stream",
     "For3D": false,
     "HTile": false,
     "VTile": false,

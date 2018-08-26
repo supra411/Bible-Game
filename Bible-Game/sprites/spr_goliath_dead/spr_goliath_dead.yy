@@ -2,7 +2,7 @@
     "id": "9aae7ba8-7723-4526-a20a-a5471e0eea6a",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_goliath_dead",
+    "name": "spr_Goliath_Dead",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -2,7 +2,7 @@
     "id": "d8b40e00-c819-4140-bb3b-a6d1d1971878",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_stream",
+    "name": "obj_Stream",
     "eventList": [
         
     ],

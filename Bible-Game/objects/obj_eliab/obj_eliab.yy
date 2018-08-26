@@ -2,7 +2,7 @@
     "id": "695d6003-4297-454f-800c-ffa12a6322e0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_eliab",
+    "name": "obj_Eliab",
     "eventList": [
         
     ],

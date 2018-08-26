@@ -49,9 +49,9 @@ if (l6C633556_0)
 			/// @DnDVersion : 1
 			/// @DnDHash : 2E0D4AC0
 			/// @DnDParent : 68273AA4
-			/// @DnDArgument : "expr" "25"
+			/// @DnDArgument : "expr" "50"
 			/// @DnDArgument : "var" "cooldown"
-			cooldown = 25;
+			cooldown = 50;
 		
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1

@@ -2,7 +2,7 @@
     "id": "3d4f1c2c-00f9-4738-a0b1-3eed15353f26",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_rock",
+    "name": "spr_Stone",
     "For3D": false,
     "HTile": false,
     "VTile": false,

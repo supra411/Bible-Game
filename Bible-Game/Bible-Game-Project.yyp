@@ -115,6 +115,25 @@
             }
         },
         {
+            "Key": "15818e0f-9942-4b7e-ac1d-b3cdad5e835a",
+            "Value": {
+                "id": "9a29bed9-4bc5-427d-9f5a-8c1bf17234e7",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_dialoguebox\/obj_dialoguebox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2d7f3555-f432-4429-9e2c-c8738de6a0f9",
             "Value": {
                 "id": "98cdb560-077c-446a-a7a4-1c7aa6e404fe",
@@ -150,6 +169,25 @@
                 ],
                 "resourcePath": "views\/2fe6f1c2-a892-49f9-85b9-8c99c9d4d4e4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3acb0dc6-93be-40f7-afdc-9a20e8d2c010",
+            "Value": {
+                "id": "d960edfd-23b2-4ea9-b861-cf0368cce3b4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/obj_dialogue\/obj_dialogue.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -777,6 +815,25 @@
                 ],
                 "resourcePath": "views\/cfdf3aea-de0c-43a3-8d8a-156d479dd32d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d2245670-ec02-43c3-b97d-c73c00d617a8",
+            "Value": {
+                "id": "f2351ad7-5d59-4fee-a568-c91e1f29d170",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/txt_dialoguetext\/txt_dialoguetext.yy",
+                "resourceType": "GMFont"
             }
         },
         {
